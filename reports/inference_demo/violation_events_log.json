@@ -1,0 +1,500 @@
+[
+  {
+    "frame": 306,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 307,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 2,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 337,
+    "detections_count": 2,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 339,
+    "detections_count": 2,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 428,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 429,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 2,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 430,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 3,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1005,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1006,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 2,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1007,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 3,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1010,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1011,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 2,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1012,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 3,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1013,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 4,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1014,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 5,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1015,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 6,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1016,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 7,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1017,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 8,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1018,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 9,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1019,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 10,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1020,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 11,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1021,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 12,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1078,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1079,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 2,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1080,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 3,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1081,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 4,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1082,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 5,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1083,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 6,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1084,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 7,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1085,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 8,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [
+      "no-hardhat"
+    ],
+    "is_alarm": true
+  },
+  {
+    "frame": 1088,
+    "detections_count": 1,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1092,
+    "detections_count": 2,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  },
+  {
+    "frame": 1635,
+    "detections_count": 2,
+    "raw_violations": [
+      "no-hardhat"
+    ],
+    "streaks": {
+      "no-hardhat": 1,
+      "no-mask": 0,
+      "no-safety vest": 0
+    },
+    "confirmed_alerts": [],
+    "is_alarm": false
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "file": "err_01_train_00167.jpg",
+    "source_image": "train_00167.jpg",
+    "false_positives": 1,
+    "false_negatives": 17,
+    "gt_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "no-mask",
+      "no-mask",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "no-mask",
+      "no-mask",
+      "no-mask",
+      "no-mask",
+      "no-safety vest",
+      "no-safety vest",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "pred_classes": [
+      "hardhat",
+      "hardhat"
+    ]
+  },
+  {
+    "id": 2,
+    "file": "err_02_validation_00047.jpg",
+    "source_image": "validation_00047.jpg",
+    "false_positives": 0,
+    "false_negatives": 17,
+    "gt_classes": [
+      "hardhat",
+      "hardhat",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "no-safety vest",
+      "no-mask",
+      "gloves",
+      "gloves",
+      "gloves",
+      "safety shoes",
+      "safety shoes",
+      "no-safety vest",
+      "safety shoes",
+      "safety shoes"
+    ],
+    "pred_classes": []
+  },
+  {
+    "id": 3,
+    "file": "err_03_validation_00039.jpg",
+    "source_image": "validation_00039.jpg",
+    "false_positives": 0,
+    "false_negatives": 12,
+    "gt_classes": [
+      "hardhat",
+      "hardhat",
+      "no-safety vest",
+      "no-mask",
+      "no-safety vest",
+      "safety shoes",
+      "safety shoes",
+      "safety shoes",
+      "safety shoes",
+      "person",
+      "gloves",
+      "person",
+      "person"
+    ],
+    "pred_classes": [
+      "hardhat"
+    ]
+  },
+  {
+    "id": 4,
+    "file": "err_04_train_00196.jpg",
+    "source_image": "train_00196.jpg",
+    "false_positives": 4,
+    "false_negatives": 2,
+    "gt_classes": [
+      "no-hardhat",
+      "no-hardhat",
+      "no-hardhat",
+      "no-hardhat",
+      "no-hardhat",
+      "no-hardhat",
+      "no-hardhat"
+    ],
+    "pred_classes": [
+      "no-hardhat",
+      "no-hardhat",
+      "no-hardhat",
+      "no-hardhat",
+      "excavators",
+      "person",
+      "no-hardhat",
+      "no-hardhat",
+      "person"
+    ]
+  },
+  {
+    "id": 5,
+    "file": "err_05_train_00001.jpg",
+    "source_image": "train_00001.jpg",
+    "false_positives": 3,
+    "false_negatives": 2,
+    "gt_classes": [
+      "excavators",
+      "dump truck",
+      "dump truck"
+    ],
+    "pred_classes": [
+      "dump truck",
+      "dump truck",
+      "excavators",
+      "dump truck"
+    ]
+  },
+  {
+    "id": 6,
+    "file": "err_06_train_00192.jpg",
+    "source_image": "train_00192.jpg",
+    "false_positives": 4,
+    "false_negatives": 1,
+    "gt_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat"
+    ],
+    "pred_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat"
+    ]
+  },
+  {
+    "id": 7,
+    "file": "err_07_validation_00005.jpg",
+    "source_image": "validation_00005.jpg",
+    "false_positives": 2,
+    "false_negatives": 2,
+    "gt_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat"
+    ],
+    "pred_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "no-hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat"
+    ]
+  },
+  {
+    "id": 8,
+    "file": "err_08_validation_00009.jpg",
+    "source_image": "validation_00009.jpg",
+    "false_positives": 2,
+    "false_negatives": 2,
+    "gt_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat"
+    ],
+    "pred_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "no-hardhat",
+      "no-hardhat"
+    ]
+  },
+  {
+    "id": 9,
+    "file": "err_09_test_00029.jpg",
+    "source_image": "test_00029.jpg",
+    "false_positives": 1,
+    "false_negatives": 2,
+    "gt_classes": [
+      "wheel loader",
+      "wheel loader",
+      "wheel loader",
+      "wheel loader"
+    ],
+    "pred_classes": [
+      "wheel loader",
+      "wheel loader",
+      "wheel loader"
+    ]
+  },
+  {
+    "id": 10,
+    "file": "err_10_train_00281.jpg",
+    "source_image": "train_00281.jpg",
+    "false_positives": 3,
+    "false_negatives": 0,
+    "gt_classes": [
+      "hardhat"
+    ],
+    "pred_classes": [
+      "hardhat",
+      "no-hardhat",
+      "hardhat",
+      "no-hardhat"
+    ]
+  },
+  {
+    "id": 11,
+    "file": "err_11_validation_00021.jpg",
+    "source_image": "validation_00021.jpg",
+    "false_positives": 1,
+    "false_negatives": 2,
+    "gt_classes": [
+      "hardhat",
+      "hardhat"
+    ],
+    "pred_classes": [
+      "hardhat"
+    ]
+  },
+  {
+    "id": 12,
+    "file": "err_12_validation_00040.jpg",
+    "source_image": "validation_00040.jpg",
+    "false_positives": 2,
+    "false_negatives": 1,
+    "gt_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat"
+    ],
+    "pred_classes": [
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat",
+      "hardhat"
+    ]
+  }
+]
