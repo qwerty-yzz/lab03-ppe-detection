@@ -1,0 +1,93 @@
+{
+  "E1_baseline": {
+    "description": "YOLOv8n baseline (imgsz=640, epochs=30, batch=8, без mosaic/mixup)",
+    "weights_path": "runs/detect/runs/E1_baseline/weights/best.pt",
+    "val_metrics": {
+      "precision": 0.7375,
+      "recall": 0.4161,
+      "mAP50": 0.4718,
+      "mAP50_95": 0.3257
+    }
+  },
+  "E2_improved": {
+    "description": "YOLOv8n improved (imgsz=640, epochs=30, batch=8, mosaic=1.0, mixup=0.1, cos_lr=True)",
+    "weights_path": "runs/detect/runs/E2_improved/weights/best.pt",
+    "val_metrics": {
+      "precision": 0.8204,
+      "recall": 0.4508,
+      "mAP50": 0.447,
+      "mAP50_95": 0.2656
+    }
+  },
+  "selected_model": {
+    "experiment": "E1_baseline",
+    "test_metrics": {
+      "precision": 0.8059,
+      "recall": 0.3439,
+      "mAP50": 0.3901,
+      "mAP50_95": 0.2469
+    },
+    "per_class_test_metrics": {
+      "excavators": {
+        "precision": 0.8221,
+        "recall": 0.7619,
+        "mAP50": 0.8378,
+        "mAP50_95": 0.512
+      },
+      "gloves": {
+        "precision": 1.0,
+        "recall": 0.0,
+        "mAP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      "hardhat": {
+        "precision": 0.8704,
+        "recall": 0.6554,
+        "mAP50": 0.7515,
+        "mAP50_95": 0.3902
+      },
+      "no-hardhat": {
+        "precision": 0.6718,
+        "recall": 0.6308,
+        "mAP50": 0.699,
+        "mAP50_95": 0.3548
+      },
+      "no-mask": {
+        "precision": 1.0,
+        "recall": 0.0,
+        "mAP50": 0.0,
+        "mAP50_95": 0.0
+      },
+      "no-safety vest": {
+        "precision": 1.0,
+        "recall": 0.0,
+        "mAP50": 0.0083,
+        "mAP50_95": 0.0052
+      },
+      "person": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "mAP50": 0.0056,
+        "mAP50_95": 0.003
+      },
+      "safety shoes": {
+        "precision": 1.0,
+        "recall": 0.0,
+        "mAP50": 0.0139,
+        "mAP50_95": 0.0042
+      },
+      "dump truck": {
+        "precision": 0.7801,
+        "recall": 0.5,
+        "mAP50": 0.6168,
+        "mAP50_95": 0.4798
+      },
+      "wheel loader": {
+        "precision": 0.9144,
+        "recall": 0.8912,
+        "mAP50": 0.9683,
+        "mAP50_95": 0.7199
+      }
+    }
+  }
+}
