@@ -4,16 +4,10 @@ from datasets import load_dataset
 from tqdm import tqdm
 
 CLASS_NAMES = [
-    "Hardhat",
-    "Mask",
-    "NO-Hardhat",
-    "NO-Mask",
-    "NO-Safety Vest",
-    "Person",
-    "Safety Cone",
-    "Safety Vest",
-    "machinery",
-    "vehicle",
+    "barricade", "dumpster", "excavators", "gloves", "hardhat",
+    "mask", "no-hardhat", "no-mask", "no-safety vest", "person",
+    "safety net", "safety shoes", "safety vest", "dump truck",
+    "mini-van", "truck", "wheel loader",
 ]
 
 def convert_bbox_to_yolo(bbox, img_w, img_h):
