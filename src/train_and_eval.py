@@ -18,6 +18,7 @@ def extract_metrics(val_results) -> dict:
 def main():
     data_yaml = str(Path("configs/ppe.yaml").resolve())
     base_weights = "models/yolov8n.pt" if Path("models/yolov8n.pt").exists() else "yolov8n.pt"
+    runs_root = Path("runs/detect/runs")
 
     experiments = {
         "E1_baseline": {
@@ -71,11 +72,14 @@ def main():
     best_val_map = -1.0
 
     for exp_name, cfg in experiments.items():
-        print(f"\n{'='*60}\nЗапуск эксперимента: {exp_name}\n{cfg['description']}\n{'='*60}")
-        model = YOLO(base_weights)
-        model.train(**cfg["train_kwargs"])
+        best_pt = runs_root / exp_name / "weights/best.pt"
+        if best_pt.exists():
+            print(f"\nНайдены готовые веса для {exp_name}: {best_pt}. Пропускаем повторное обучение.")
+        else:
+            print(f"\n{'='*60}\nЗапуск эксперимента: {exp_name}\n{cfg['description']}\n{'='*60}")
+            model = YOLO(base_weights)
+            model.train(**cfg["train_kwargs"])
 
-        best_pt = Path(f"runs/{exp_name}/weights/best.pt")
         best_model = YOLO(str(best_pt))
 
         print(f"\nВалидация {exp_name} на split='val'...")
@@ -112,7 +116,6 @@ def main():
     )
     test_metrics = extract_metrics(test_res)
 
-    # Сохраняем поклассовые метрики на test
     per_class_test = {}
     names = test_res.names
     for idx, cls_idx in enumerate(test_res.box.ap_class_index):
@@ -130,17 +133,16 @@ def main():
         "per_class_test_metrics": per_class_test,
     }
 
-    # Копируем ключевые графики в reports/figures/ для документации
     figures_dir = Path("reports/figures")
     figures_dir.mkdir(parents=True, exist_ok=True)
     for exp_name in experiments:
         for fig_name in ["results.png", "confusion_matrix.png", "PR_curve.png", "F1_curve.png"]:
-            src_fig = Path(f"runs/{exp_name}/{fig_name}")
+            src_fig = runs_root / exp_name / fig_name
             if src_fig.exists():
                 shutil.copy2(src_fig, figures_dir / f"{exp_name}_{fig_name}")
 
     for fig_name in ["confusion_matrix.png", "PR_curve.png", "F1_curve.png", "val_batch0_pred.jpg"]:
-        src_fig = Path(f"runs/{best_exp_name}_final_test/{fig_name}")
+        src_fig = runs_root / f"{best_exp_name}_final_test" / fig_name
         if src_fig.exists():
             shutil.copy2(src_fig, figures_dir / f"FINAL_TEST_{fig_name}")
 
